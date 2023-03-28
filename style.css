@@ -1,0 +1,82 @@
+@font-face {
+    src:url("E:\Projects\Interncrowd\CasanovaRegular-gx0J4.otf")format("truetype");
+    font-family: nos;
+}
+.paragraph{
+    
+    text-align: center;
+    
+    font-size: 30px;
+    font-family:cursive;
+    color: beige;
+}
+.paragraph2{
+    text-align:center;
+    font-size: 60px;
+    font-family:cursive;
+    color:beige
+}
+.menu-bar
+{
+text-align:center;
+background-color:transparent
+}
+.menu-bar ul
+{
+   display: inline-flex;
+   color:red;
+   
+}
+.menu-bar ul li
+{
+    font-family: cursive;
+    width: 120px;
+    margin: 0px;
+    padding: 10px;
+
+}
+
+.menu-bar ul li:hover
+{
+
+    background:floralwhite;
+    color: #000000;
+    border-radius:3px;
+}
+.paragraph5{
+    font-size: 20px;
+    font-family:cursive;
+    margin: 30px;
+    color:beige;
+}
+
+
+
+.lets-go-btn{
+    color:red;
+    background-color: transparent;
+    text-decoration:dashed;
+    text-transform: uppercase;
+    font-family:cursive;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: -15px; 
+}
+.lets-go-btn:hover{
+    background: floralwhite;
+    color: #000000;
+}
+
+
+.footer{
+    background-color:black;
+    margin-top:10%;
+}
+.p1{
+    color:rgb(2, 2, 1);
+    font-size: larger;
+    padding-bottom: 10px;
+    
+}
