@@ -2,6 +2,11 @@
     src:url("E:\Projects\Interncrowd\CasanovaRegular-gx0J4.otf")format("truetype");
     font-family: nos;
 }
+.container{
+    border-radius: 20px;
+    
+}
+
 .paragraph{
     
     text-align: center;
@@ -53,9 +58,9 @@ background-color:transparent
 
 
 .lets-go-btn{
-    color:red;
-    background-color: transparent;
-    text-decoration:dashed;
+    color:#000000;
+    background-color:transparent;
+    text-decoration:none;
     text-transform: uppercase;
     font-family:cursive;
     font-weight: 1000;

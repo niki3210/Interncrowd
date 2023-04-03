@@ -17,6 +17,18 @@
       height: 100vh;
       margin-bottom: 15%;
     }
+    
+    input[type=text] {
+      background-color:beige; 
+      border: none; 
+      padding: 5px; 
+      
+    }
+    input[type=password] {
+      background-color:beige; 
+      border: none ; 
+      padding: 5px; 
+    }
   </style>
   <style>
     h2 {
@@ -24,6 +36,7 @@
     }
   </style>
   <script src="https://kit.fontawesome.com/f9c49325e6.js" crossorigin="anonymous"></script>
+  
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -57,10 +70,26 @@
   </div>
   <ul>
     <div>
-      <a href="#" class="lets-go-btn">LOGIN</a>
+      <a href="#" class="lets-go-btn"></a>
     </div>
 
+    <div class="container">
+    
+      <form>
+        
+        <label for="username">Username</label>
+        <input type="text" name="username" />
+        <p style="line-height: 0.5;"></p>
+        <label for="password">Password</label>
+        <input type="password" name="password" />  
+        <p style="line-height: 0.5;"></p> 
+        <input type="submit" class="lets-go-btn" value="Login" />
+        <p style="line-height: 0.5;"></p> 
+        <input type="submit" class="lets-go-btn" value="Sign-Up" />
+      </form>
+    </div>
 
+    <script src="./intern.js"></script>
 </body>
 
 </html>
